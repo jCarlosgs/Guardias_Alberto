@@ -1,0 +1,56 @@
+<style media="screen">
+
+/* Aqui es donde se define todos los estilos de la pagina asi como la asignacion de colores, tipo de letras, tamaños y acomodos de imagenes y de mas cosas */
+.menu {
+  list-style: none;
+  border: 100px white solid;
+  border-radius: 100px;
+  width: 100px;
+  padding: 100px;
+  /* Esta parte especifica que todo funcione tanto las especificaciones y tambien los acomodos de distancias y quitar los contadores que se ponen por defecto */
+}
+
+.menu li {
+  font-size: 25px;
+  line-height: 2.4em;
+  border-bottom: dotted 2px yellow;
+  overflow: auto;
+  /* Esta parte otorga las especificaciones sobre las lineas que estan separando las palabras del menu, el color que se le otorga y tambien el tamaño de las letras y las lineas del menu */
+}
+
+.menu li:last-child {
+  border: none;
+  /* Esta parte es para darle bordes o no al cuadro del menu */
+}
+
+.menu li a {
+  color: green;
+  text-decoration: none;
+  /* Esta parte da color a las letras del menu y decoracion de los textos */
+}
+
+.menu li a:hover {
+  color: #FD1A03;
+  /* Esta parte es para darle color al menu cuando pasas el apuntador encima de las palabras del menu */
+}
+
+body {
+  /* Esta parte es para el color del fondo, color de las letras de todo lo que esta en el cuerpo de la pagin y tambien la tipografia que contiene */
+  font-family: arial;
+  background-color: silver;
+  color: purple;
+}
+
+.imagen img {
+  /* Esto es para modificar la imagen, hacia cual lado quedara y que largo y ancho tendra la imagen */
+  float: right;
+  width: 700px;
+  height: 750px;
+}
+
+h1 {
+  /* Este es el color de los titulos (son los H1) */
+  color: blue;
+}
+
+</style>
