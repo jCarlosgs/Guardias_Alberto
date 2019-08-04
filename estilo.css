@@ -44,8 +44,8 @@ body {
 .imagen img {
   /* Esto es para modificar la imagen, hacia cual lado quedara y que largo y ancho tendra la imagen */
   float: right;
-  width: 700px;
-  height: 750px;
+  width: 750px;
+  height: 790px;
 }
 
 h1 {
